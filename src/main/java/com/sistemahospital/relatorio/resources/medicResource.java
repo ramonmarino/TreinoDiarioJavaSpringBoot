@@ -14,7 +14,7 @@ public class medicResource {
 	@GetMapping
 	public ResponseEntity<medic> findAll(){
 		medic m = new medic(1L,"Pedro", "pedro@gmail.com", "45678901","12345");
-		return ResponseEntity.ok().body(m);
+		return ResponseEntity.ok().body(m); 
 		
 	}
 	
